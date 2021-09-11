@@ -270,7 +270,7 @@ nav #nav-item .nav-list-item {
 }
 footer {
   background: var(--black-color);
-  padding: 60px 0 150px 0;
+  padding: 50px 0;
   color: var(--white-color);
 }
 #footer-div {
@@ -486,9 +486,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: red;
-    margin-bottom: 30px;
-    height: 100px;
+    background-color:green;
+    // margin: 100px;
+    // height: 100px;
   }
   #footer-social-links nav ul li {
     text-align: center;
