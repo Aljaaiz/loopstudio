@@ -358,7 +358,7 @@ footer {
     grid-gap: 10px;
   }
   #logo {
-    background: #000;
+    
     height: 20px;
   }
   #nav-item {
@@ -377,9 +377,9 @@ footer {
     visibility: visible;
   }
   #about-details {
-    margin-top: 100px;
-    margin-bottom: 0;
-    padding: 10px 50px 20px 20px;
+    // margin-top: 100px;
+    margin-bottom: 10px;
+    // padding: 10px 50px 20px 20px;
   }
   section {
     padding: 10px 0;
@@ -405,12 +405,15 @@ footer {
     background-size: cover;
     background-position: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 40px;
   }
   #big_title {
-    position: absolute;
-    top: 35%;
-    border: 2px solid var(--white-color);
-    padding: 20px 30px 20px 40px;
+    text-align: center;
+    // position: absolute;
+    // top: 35%;
+    // left:50%;
+    // border: 2px solid var(--white-color);
+     padding: 20px 30px 20px 40px;
   }
   #big_title h1 {
     font-weight: lighter;
@@ -481,20 +484,30 @@ footer {
   }
 
   #footer-social-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:green;
-    // margin: 100px;
-    // height: 100px;
+   
+  }
+  #footer-social-links {
+    // background-color: red;
   }
   #footer-social-links nav ul li {
     text-align: center;
     display: block !important;
   }
-  .nav-list-item {
+  #footer-div .nav-list-item {
+    text-align: center;
     padding: 20px 0;
+    // margin:30px 0;
+   
+  }
+
+  #footer-div #footer-nav{
+    margin-bottom: 10px;
+    justify-content: center;
+   
   }
 }
