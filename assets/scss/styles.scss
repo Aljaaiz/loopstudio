@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 @import "reset";
 
 
@@ -7,6 +9,9 @@
   --black-color: hsl(0, 0%, 0%);
   --gray-color: hsl(0, 0%, 55%);
   --dark-gray: hsl(0, 0%, 41%);
+//   --font-Alata:font-familyfont-family: 'Alata', sans-serif;
+//   --font-josefin:font-family: 'Josefin Sans', sans-serif;
+// 
 }
 *,
 ::before,
@@ -16,7 +21,9 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  // font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  // font-family: 'Alata', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   overflow-x: hidden;
 }
 .main-container {
@@ -151,6 +158,15 @@ nav #nav-item .nav-list-item {
   font-weight: lighter;
   text-transform: uppercase;
   color: var(--black-color);
+  margin-bottom: 10px;
+}
+#about-details p{
+  // font-size: 2.5rem;
+  font-weight: lighter;
+  font-family: var(--font-josefin);
+  // text-transform: uppercase;
+  color: var(--black-color);
+  // color:red;
   margin-bottom: 10px;
 }
 
@@ -422,6 +438,19 @@ footer {
     text-transform: uppercase;
     line-height: 57px;
     letter-spacing: 4px;
+  }
+  #about-details h1{
+    text-align: center;
+  }
+  #about-details {
+    align-self: flex-end;
+    margin-left: -100px;
+    /* width: 50%; */
+    padding: 70px 10px 20px 100px;
+    background: var(--white-color);
+    color: var(--gray-color);
+    /* height: 400px; */
+    /* background: red; */
   }
   #our-creation-header h1 {
     font-size: 1.5rem;
